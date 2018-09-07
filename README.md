@@ -2,6 +2,20 @@
 
 It allows to use cssthis but the CSS resivirlo from an object
 
+## Installation
+
+By default cssthis, has a method within the style function, called ** parse **, this allows to read the content given to cssthis, before executing the css as a function.
+
+```javascript
+import {style} from "cssthis";
+import transform from "cssthis-object";
+transform(style);
+```
+
+Once you have done the above you can use objects such as CSS.
+
+## Example
+
 ```javascript
 import { style } from "cssthis";
 

@@ -117,7 +117,7 @@ export default function transform(cssObj, group, deep = 0, ignore) {
             []
                 .concat(value)
                 .forEach(value =>
-                    rules.push('"' + property(prop, value, false, " ") + '"')
+                    rules.push('"' + property(prop, value, false, " ") + ';"')
                 );
         } else {
             []

@@ -1,6 +1,6 @@
 # cssthis-object
 
-permite usar cssthis pero el CSS resivirlo desde un objeto
+Permite usar [cssthis](https://github.com/uppercod/cssthis) a base de un objeto, evitando la necesidad de [cssthis-parse](https://github.com/uppercod/cssthis-parse).
 
 ## Instalación
 

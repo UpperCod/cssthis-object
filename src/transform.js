@@ -46,6 +46,7 @@ function property(name, value, quoteScape, join = ":") {
         value = value.replace(/([^\s]+)/, "$1-" + prefix.class);
         quoteScape = true;
     }
+    value = typeof value === "string" ? value : String(value);
     return (
         name.replace(
             /(.+)([A-Z])/g,

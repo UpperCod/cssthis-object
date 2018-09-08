@@ -1,10 +1,11 @@
 # cssthis-object
 
-It allows to use cssthis but the CSS resivirlo from an object
+It allows using [cssthis](https://github.com/uppercod/cssthis) based on an object, avoiding the need for [cssthis-parse](https://github.com/uppercod/cssthis-parse).
 
 ## Installation
 
-By default cssthis, has a method within the style function, called ** parse **, this allows to read the content given to cssthis, before executing the css as a function.
+By default cssthis, has a method within the style function, called **parse**, this allows to read the content given to cssthis, before executing the css as a function.
+
 
 ```javascript
 import {style} from "cssthis";
